@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Rajee/Scenes/Start scene.unity
+    guid: a3b94b9a517a04a4e922654ba36897d2
+  - enabled: 1
+    path: Assets/Rajee/Scenes/Communication assesment.unity
+    guid: 0d51a2fe00660b4499ec98cf801a3876
+  - enabled: 1
+    path: Assets/Rajee/Scenes/Project gemini.unity
+    guid: 4f4ab6fcfaf9fa94fb756d586b841bcd
   m_configObjects: {}

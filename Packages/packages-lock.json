@@ -1,5 +1,29 @@
 {
   "dependencies": {
+    "com.meta.witai": {
+      "version": "https://github.com/wit-ai/wit-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b70692b2f288a9876481cd179f3d95ea33f68219"
+    },
+    "com.meta.xr.sdk.voice": {
+      "version": "67.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.simonoliver.unityfigma": {
+      "version": "https://github.com/simonoliver/UnityFigmaBridge.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.1-preview.1",
+        "com.unity.textmeshpro": "2.0.1"
+      },
+      "hash": "dbd12bff29e8bc84e2682bb19495899711651455"
+    },
     "com.unity.collab-proxy": {
       "version": "2.0.4",
       "depth": 0,
@@ -56,6 +80,22 @@
     "com.unity.ide.vscode": {
       "version": "1.2.5",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.10.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

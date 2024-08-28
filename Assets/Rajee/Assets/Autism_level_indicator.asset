@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33763bde90231e84faa2f36936f52154, type: 3}
   m_Name: Autism_level_indicator
   m_EditorClassIdentifier: 
-  Autism_level_score: 0
+  Autism_level_score: 4
   Level_display: 0

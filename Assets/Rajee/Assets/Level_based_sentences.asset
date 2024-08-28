@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ce024d6303e004c87a163c9de05434, type: 3}
+  m_Name: Level_based_sentences
+  m_EditorClassIdentifier: 
+  stringInputs_for_begginer:
+  - I am happy
+  - You are nice
+  - I like toys
+  - It is colorful
+  - She is kind
+  - We had fun
+  - how are you
+  - Its my turn
+  - I feel good
+  - Please help me
+  - We play together
+  stringInputs_for_intermediate:
+  - Lets go outside
+  - Can you sing
+  - Where is mom
+  - Lets be friends
+  - Share the toys
+  - I want friends
+  - Open the cupboard
+  - I love cartoons
+  - Greet him hello
+  - Tell me now
+  - Make it quick
+  stringInputs_for_advanced:
+  - I finished my homework
+  - Can you help me
+  - Please pass the book
+  - I need a break
+  - Lets go for lunch
+  - Do you need anything
+  - Let me help you
+  - Read that book first
+  - May I leave now
+  - We must collaborate
+  - Make it simple

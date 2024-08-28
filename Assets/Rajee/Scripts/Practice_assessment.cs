@@ -6,15 +6,36 @@ using TMPro;
 using System.Text;
 using UnityEngine.TextCore.Text;
 using TMPro.Examples;
-public class Autism_assessment : MonoBehaviour
+public class Practice_assessment : MonoBehaviour
 {
     private int i = 0;
     public int Normal_score;
     private int x;
     public TMP_Text text;
-    public Autism_level level;
+    public Sentences_based_on_level level;
+    public Autism_level autism;
+    public TMP_Text sentences;
 
     [SerializeField] public List<string> stringInputs = new List<string>();
+
+
+    private void Start()
+    {
+        if (autism.Autism_level_score >= 9)
+        {
+            stringInputs = level.stringInputs_for_advanced;
+        }
+        else if (autism.Autism_level_score >= 5 && autism.Autism_level_score < 9)
+        {
+            stringInputs = level.stringInputs_for_intermediate;
+        }
+        else if (autism.Autism_level_score >= 0 && autism.Autism_level_score < 5)
+        {
+            stringInputs = level.stringInputs_for_begginer;
+        }
+        string combinedString = string.Join("\n", stringInputs);
+        sentences.text = combinedString;
+    }
     public void Assessment(string[] values)
     {
         var String0 = values[0];
@@ -31,13 +52,13 @@ public class Autism_assessment : MonoBehaviour
             {
                 if (words[j].Equals(values[i], System.StringComparison.OrdinalIgnoreCase))
                 {
-                        Debug.Log(words[j] + " " + values[i] + " " + i);
-                        x += 1;
-                        i++;
-                        break;
+                    Debug.Log(words[j] + " " + values[i] + " " + i);
+                    x += 1;
+                    i++;
+                    break;
                 }
                 else
-                   i++;
+                    i++;
             }
             if (x == 3 || x == 4)
             {
@@ -46,15 +67,12 @@ public class Autism_assessment : MonoBehaviour
                 x = 0;
                 break;
             }
-            
+
         }
         Debug.Log("Score " + Normal_score);
         text.text = Normal_score.ToString();
-        
+
     }
+
     
-    public void test_score()
-    {
-        level.Autism_level_score = 10 - Normal_score;
-    }
 }

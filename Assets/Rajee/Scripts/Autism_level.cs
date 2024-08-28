@@ -11,8 +11,5 @@ public class Autism_level : ScriptableObject
     public int Level_display = 0;
 
     // Start is called before the first frame update
-    public void score_evaluator()
-    {
-        Level_display = 10 - Autism_level_score;
-    }
+    
 }

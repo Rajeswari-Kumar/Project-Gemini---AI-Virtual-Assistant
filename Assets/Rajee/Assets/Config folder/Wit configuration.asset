@@ -20,9 +20,9 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2024-07-14T22:53:00-0700
     trainingStatus: 1
-    lastTrainDuration: 39
-    lastTrainedAt: 2024-08-21T22:37:53-0700
-    nextTrainAt: 2024-08-21T22:37:14-0700
+    lastTrainDuration: 97
+    lastTrainedAt: 2024-08-27T21:41:58-0700
+    nextTrainAt: 2024-08-27T21:40:21-0700
     intents:
     - id: 1231017455006543
       name: Sentence
@@ -52,18 +52,48 @@ MonoBehaviour:
       - name: Adjective
         id: 800088575625529
       keywords:
+      - keyword: colorful
+        synonyms:
+        - colorful
+      - keyword: courage
+        synonyms:
+        - courage
+      - keyword: delicious
+        synonyms:
+        - delicious
+      - keyword: fun
+        synonyms:
+        - fun
+      - keyword: good
+        synonyms:
+        - good
       - keyword: guilty
         synonyms:
         - guilty
+      - keyword: happy
+        synonyms:
+        - happy
+      - keyword: hectic
+        synonyms:
+        - hectic
       - keyword: independent
         synonyms:
         - independent
+      - keyword: kind
+        synonyms:
+        - kind
+      - keyword: nice
+        synonyms:
+        - nice
       - keyword: outdated
         synonyms:
         - outdated
       - keyword: tired
         synonyms:
         - tired
+      - keyword: turn
+        synonyms:
+        - turn
       - keyword: unacceptable
         synonyms:
         - unacceptable
@@ -84,13 +114,16 @@ MonoBehaviour:
         - you
       - keyword: come
         synonyms:
-        - ome
+        - come
       - keyword: friend
         synonyms:
         - friend
       - keyword: friends
         synonyms:
         - friends
+      - keyword: toys
+        synonyms:
+        - toys
     - name: Subject
       id: 1066221144919271
       lookups:
@@ -106,6 +139,12 @@ MonoBehaviour:
       - keyword: I
         synonyms:
         - i
+      - keyword: It
+        synonyms:
+        - it
+      - keyword: Its
+        synonyms:
+        - its
       - keyword: They
         synonyms:
         - they
@@ -115,15 +154,24 @@ MonoBehaviour:
       - keyword: You
         synonyms:
         - you
+      - keyword: chocolate
+        synonyms:
+        - chocolate
       - keyword: how
         synonyms:
         - how
+      - keyword: she
+        synonyms:
+        - she
       - keyword: we
         synonyms:
         - we
       - keyword: who
         synonyms:
         - who
+      - keyword: worklife
+        synonyms:
+        - worklife
     - name: greeting
       id: 1022673269007413
       lookups:
@@ -148,6 +196,9 @@ MonoBehaviour:
       - keyword: my
         synonyms:
         - my
+      - keyword: with
+        synonyms:
+        - with
     - name: verb
       id: 8266660576710950
       lookups:
@@ -166,9 +217,21 @@ MonoBehaviour:
       - keyword: can
         synonyms:
         - an
+      - keyword: feel
+        synonyms:
+        - feel
+      - keyword: had
+        synonyms:
+        - had
       - keyword: is
         synonyms:
         - is
+      - keyword: like
+        synonyms:
+        - like
+      - keyword: talk
+        synonyms:
+        - talk
     traits: []
     versionTags: []
     voices:

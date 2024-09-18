@@ -441,7 +441,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1237712007}
         m_TargetAssemblyTypeName: Scene_switcher, Assembly-CSharp
-        m_MethodName: Go_home
+        m_MethodName: scene_switch
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 10, y: 10, z: 10, w: -1689.0786}
+  m_margin: {x: 33.097656, y: 10, z: 10, w: -1689.0786}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2793,7 +2793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2143422988
 Transform:
   m_ObjectHideFlags: 0
@@ -8249,8 +8249,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5}
-  m_SizeDelta: {x: -20, y: -13}
+  m_AnchoredPosition: {x: 19.325, y: -0.5}
+  m_SizeDelta: {x: -58.65, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7545759525937618961
 MonoBehaviour:

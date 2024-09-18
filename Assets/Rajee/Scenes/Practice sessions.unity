@@ -607,7 +607,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 452862098}
         m_TargetAssemblyTypeName: Scene_switcher, Assembly-CSharp
-        m_MethodName: Go_home
+        m_MethodName: scene_switch
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -617,9 +617,9 @@ MonoBehaviour:
           m_StringArgument: Start scene
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1678499118}
         m_TargetAssemblyTypeName: Autism_assessment, Assembly-CSharp
-        m_MethodName: test_score
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -805,7 +805,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 452862098}
         m_TargetAssemblyTypeName: Scene_switcher, Assembly-CSharp
-        m_MethodName: Go_home
+        m_MethodName: scene_switch
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3663,7 +3663,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Communication assesment
+  m_text: Practice sessions
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -56,5 +56,6 @@ public class Autism_assessment : MonoBehaviour
     public void test_score()
     {
         level.Autism_level_score = 10 - Normal_score;
+        level.Level_display = level.Autism_level_score;
     }
 }

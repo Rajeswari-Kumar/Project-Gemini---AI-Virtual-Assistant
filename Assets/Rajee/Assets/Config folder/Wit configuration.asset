@@ -20,10 +20,27 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2024-07-14T22:53:00-0700
     trainingStatus: 1
-    lastTrainDuration: 97
-    lastTrainedAt: 2024-08-27T21:41:58-0700
-    nextTrainAt: 2024-08-27T21:40:21-0700
+    lastTrainDuration: 108
+    lastTrainedAt: 2024-09-04T22:01:51-0700
+    nextTrainAt: 2024-09-04T22:00:03-0700
     intents:
+    - id: 1077424474387317
+      name: Friend_meet_at_school
+      entities:
+      - name: Ask_abt_class:Ask_abt_class
+        id: 1157837945274970
+      - name: Introduce:Introduce
+        id: 1179349296652017
+      - name: answer_yes:answer_yes
+        id: 914616943827856
+      - name: ask_for_help:ask_for_help
+        id: 1024989038923113
+      - name: ask_for_lunch:ask_for_lunch
+        id: 1541081706616747
+      - name: end:end
+        id: 526001709804398
+      - name: thank_frnd:thank_frnd
+        id: 2954416081372989
     - id: 1231017455006543
       name: Sentence
       entities:
@@ -52,6 +69,9 @@ MonoBehaviour:
       - name: Adjective
         id: 800088575625529
       keywords:
+      - keyword: collaborate
+        synonyms:
+        - collaborate
       - keyword: colorful
         synonyms:
         - colorful
@@ -88,9 +108,21 @@ MonoBehaviour:
       - keyword: outdated
         synonyms:
         - outdated
+      - keyword: outside
+        synonyms:
+        - outside
+      - keyword: simple
+        synonyms:
+        - simple
+      - keyword: sing
+        synonyms:
+        - sing
       - keyword: tired
         synonyms:
         - tired
+      - keyword: together
+        synonyms:
+        - together
       - keyword: turn
         synonyms:
         - turn
@@ -100,6 +132,36 @@ MonoBehaviour:
       - keyword: upset
         synonyms:
         - upset
+    - name: Ask_abt_class
+      id: 1564264390870203
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: Ask_abt_class
+        id: 1157837945274970
+      keywords:
+      - keyword: which subject
+        synonyms:
+        - which subject
+      - keyword: which subject are you taking
+        synonyms:
+        - which subject are you taking
+    - name: Introduce
+      id: 361612057014905
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: Introduce
+        id: 1179349296652017
+      keywords:
+      - keyword: hello myself alex
+        synonyms:
+        - hello myself alex
+      - keyword: hi I am alex
+        synonyms:
+        - hi i am alex
     - name: Object
       id: 1546220242634403
       lookups:
@@ -112,15 +174,54 @@ MonoBehaviour:
       - keyword: You
         synonyms:
         - you
+      - keyword: a break
+        synonyms:
+        - a break
+      - keyword: anything
+        synonyms:
+        - anything
+      - keyword: cartoons
+        synonyms:
+        - cartoons
       - keyword: come
         synonyms:
         - come
+      - keyword: cupboard
+        synonyms:
+        - cupboard
+      - keyword: first
+        synonyms:
+        - first
+      - keyword: for lunch
+        synonyms:
+        - for lunch
       - keyword: friend
         synonyms:
         - friend
       - keyword: friends
         synonyms:
         - friends
+      - keyword: hello
+        synonyms:
+        - hello
+      - keyword: me
+        synonyms:
+        - me
+      - keyword: mom
+        synonyms:
+        - mom
+      - keyword: my homework
+        synonyms:
+        - my homework
+      - keyword: now
+        synonyms:
+        - now
+      - keyword: quick
+        synonyms:
+        - quick
+      - keyword: the book
+        synonyms:
+        - the book
       - keyword: toys
         synonyms:
         - toys
@@ -145,6 +246,12 @@ MonoBehaviour:
       - keyword: Its
         synonyms:
         - its
+      - keyword: Lets
+        synonyms:
+        - lets
+      - keyword: Please
+        synonyms:
+        - please
       - keyword: They
         synonyms:
         - they
@@ -157,21 +264,102 @@ MonoBehaviour:
       - keyword: chocolate
         synonyms:
         - chocolate
+      - keyword: do you
+        synonyms:
+        - do you
+      - keyword: him
+        synonyms:
+        - him
       - keyword: how
         synonyms:
         - how
+      - keyword: let me
+        synonyms:
+        - let me
+      - keyword: make
+        synonyms:
+        - make
+      - keyword: may i
+        synonyms:
+        - may i
+      - keyword: open
+        synonyms:
+        - open
+      - keyword: read that
+        synonyms:
+        - read that
+      - keyword: share
+        synonyms:
+        - share
       - keyword: she
         synonyms:
         - she
+      - keyword: tell
+        synonyms:
+        - tell
       - keyword: we
         synonyms:
         - we
+      - keyword: where
+        synonyms:
+        - where
       - keyword: who
         synonyms:
         - who
       - keyword: worklife
         synonyms:
         - worklife
+    - name: answer_yes
+      id: 873962461299895
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: answer_yes
+        id: 914616943827856
+      keywords:
+      - keyword: Physics
+        synonyms:
+        - physics
+      - keyword: english
+        synonyms:
+        - english
+    - name: ask_for_help
+      id: 1042360127248236
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: ask_for_help
+        id: 1024989038923113
+      keywords:
+      - keyword: can i get some help
+        synonyms:
+        - can i get some help
+    - name: ask_for_lunch
+      id: 425933843931861
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: ask_for_lunch
+        id: 1541081706616747
+      keywords:
+      - keyword: how about lunch together
+        synonyms:
+        - how about lunch together
+    - name: end
+      id: 362654446894315
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: end
+        id: 526001709804398
+      keywords:
+      - keyword: thank you so much
+        synonyms:
+        - thank you so much
     - name: greeting
       id: 1022673269007413
       lookups:
@@ -199,6 +387,18 @@ MonoBehaviour:
       - keyword: with
         synonyms:
         - with
+    - name: thank_frnd
+      id: 26377458395236091
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: thank_frnd
+        id: 2954416081372989
+      keywords:
+      - keyword: that would be nice
+        synonyms:
+        - that would be nice
     - name: verb
       id: 8266660576710950
       lookups:
@@ -214,24 +414,73 @@ MonoBehaviour:
       - keyword: are
         synonyms:
         - are
+      - keyword: be
+        synonyms:
+        - be
+      - keyword: book
+        synonyms:
+        - book
       - keyword: can
         synonyms:
         - an
+        - can
       - keyword: feel
         synonyms:
         - feel
+      - keyword: finished
+        synonyms:
+        - finished
+      - keyword: go
+        synonyms:
+        - go
+      - keyword: greet
+        synonyms:
+        - greet
       - keyword: had
         synonyms:
         - had
+      - keyword: help
+        synonyms:
+        - help
       - keyword: is
         synonyms:
         - is
+      - keyword: it
+        synonyms:
+        - it
+      - keyword: leave
+        synonyms:
+        - leave
       - keyword: like
         synonyms:
         - like
+      - keyword: love
+        synonyms:
+        - love
+      - keyword: me
+        synonyms:
+        - me
+      - keyword: must
+        synonyms:
+        - must
+      - keyword: need
+        synonyms:
+        - need
+      - keyword: pass
+        synonyms:
+        - pass
+      - keyword: play
+        synonyms:
+        - play
       - keyword: talk
         synonyms:
         - talk
+      - keyword: the
+        synonyms:
+        - the
+      - keyword: want
+        synonyms:
+        - want
     traits: []
     versionTags: []
     voices:
@@ -744,7 +993,7 @@ MonoBehaviour:
   - {fileID: 3564547078993279077}
   _configurationId: 112b0f0f-7701-4943-9d2e-4d15e504c6b7
   _requestType: 0
-  _requestTimeoutMs: 10000
+  _requestTimeoutMs: 70000
   endpointConfiguration:
     _uriScheme: 
     _authority: 

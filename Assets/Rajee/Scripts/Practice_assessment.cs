@@ -21,17 +21,17 @@ public class Practice_assessment : MonoBehaviour
 
     private void Start()
     {
-        if (autism.Autism_level_score >= 9)
+        if (autism.Autism_level_score >= 8)
         {
-            stringInputs = level.stringInputs_for_advanced;
+            stringInputs = level.stringInputs_for_begginer;
         }
-        else if (autism.Autism_level_score >= 5 && autism.Autism_level_score < 9)
+        else if (autism.Autism_level_score >= 5 && autism.Autism_level_score < 8)
         {
             stringInputs = level.stringInputs_for_intermediate;
         }
         else if (autism.Autism_level_score >= 0 && autism.Autism_level_score < 5)
         {
-            stringInputs = level.stringInputs_for_begginer;
+            stringInputs = level.stringInputs_for_advanced;
         }
         string combinedString = string.Join("\n", stringInputs);
         sentences.text = combinedString;

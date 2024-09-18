@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rajee/Scenes/Project gemini.unity
     guid: 4f4ab6fcfaf9fa94fb756d586b841bcd
+  - enabled: 1
+    path: Assets/Rajee/Scenes/Practice sessions.unity
+    guid: 468ca90e4ecfe1a40a6546232be28661
+  - enabled: 1
+    path: Assets/Rajee/Scenes/List of simulations.unity
+    guid: 7971375f6acc2d649abede40775466ce
+  - enabled: 1
+    path: Assets/Rajee/Scenes/Simulation - Enquire about class.unity
+    guid: 8297d2e6634917c41beb5d58bfcdd3d6
   m_configObjects: {}
